@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Inter"
       rel="stylesheet"
@@ -12,41 +13,41 @@
   </head>
   <body>
     <div class="container">
-    <h1>AI Project | Poem Generator</h1>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter the topic of the Poem"
-          autofocus
-          required
-          autocomplete="off"
-          class="instructions"
-        />
-        <input type="submit" class="submit-button" />
-      </form>
-      <div class="poem">
-        Line one of the poem will be displayed here
-        <br />
-        Line two of the poem will be displayed here
-      </div>
-    </main>
-    <footer>
-      <h4>
-        This AI Poem generator project was coded with 🧁 by
-        <a href="https://lilypadiachy.co.za/" target="_blank">Lily Padiachy</a>
-        open-sourced on
-        <a
-          href="https://github.com/lilypadiachy/ai-project-poem-generator"
-          target="_blank"
-          >GitHub</a
-        >
-        and hosted on
-        <a href="https://ai-project-poem-generator.netlify.app" target="_blank"
-          >Netlify.</a
-        >
-      </h4>
-    </footer>
+      <h1>AI Project | Poem Generator</h1>
+      <main>
+        <form id="poem-generator-form">
+          <input
+            type="text"
+            placeholder="Enter the topic of the Poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem" id="poem"></div>
+      </main>
+      <footer>
+        <h4>
+          This AI Poem generator project was coded with 🧁 by
+          <a href="https://lilypadiachy.co.za/" target="_blank"
+            >Lily Padiachy</a
+          >
+          open-sourced on
+          <a
+            href="https://github.com/lilypadiachy/ai-project-poem-generator"
+            target="_blank"
+            >GitHub</a
+          >
+          and hosted on
+          <a
+            href="https://ai-project-poem-generator.netlify.app"
+            target="_blank"
+            >Netlify.</a
+          >
+        </h4>
+      </footer>
     </div>
     <script src="src/index.js"></script>
   </body>
