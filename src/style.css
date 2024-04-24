@@ -9,7 +9,15 @@ body {
 }
 
 h1 {
-  color: #8b92c7;
+  color: #7279af;
+  font-family: "Inter";
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+h3 {
+      color: #8b92c7;
   font-family: "Inter";
   padding: 10px;
   margin: 10px;
